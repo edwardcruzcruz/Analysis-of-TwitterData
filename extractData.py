@@ -75,5 +75,6 @@ def get_all_tweets(screen_name):
 if __name__ == '__main__':
 
     # Enter the twitter handle of the person concerned
-
-    get_all_tweets(raw_input("Enter the twitter handle of the person whose tweets you want to download:- "))
+    lista=['eluniversocom','Expresoec','DiarioExtraEc','SUPERCANCHERO']
+    for element in lista:
+        get_all_tweets(element)
